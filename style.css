@@ -582,7 +582,7 @@ main{
     vertical-align: text-bottom;
 }
 
-.plans-container--card3{
+.plans-container--cardes3{
     position: relative;
     scroll-snap-align: center;
     width: 70%;
@@ -591,11 +591,11 @@ main{
     height: 250px;
     margin: 50px 5px 0;
     padding: 0 15px;
-    background-color: #282623;
+    background-color: var(--warm-black);
     border-radius: 15px;
-    box-shadow: 0 4px 8px rgba 0,0,0,0.16;
+    box-shadow: 0 4px 8px rgba(89, 73, 30, 0.16);
 }
-.recomend{
+.recomiendore{
     position: absolute;
     width: 120px;
     height: 31px;
@@ -609,17 +609,17 @@ main{
 
 }
 
-.plan-card--savinger{
+.plan-card--savingesito{
     font-size: 1.2rem;
     color:var(--grey);
 }
 
-.plan-card--cast{
+.plan-card--caset{
     width: 150px;
     height: 48px;
     margin-top: 20px;
     background-color: #faf8f7;
-    border: 2px solid   #F7931A ;
+    border: 2px solid var(--bicoin-orange);
     border-radius: 4px;
     font-size: 1.4rem;
     font-weight: bold;
@@ -629,7 +629,7 @@ main{
 
 }
 
-.plan-card--cast span{
+.plan-card--caset span{
     display: inline-block;
     width: 20px;
     height: 20px;
@@ -637,19 +637,25 @@ main{
     vertical-align: text-bottom;
 }
 
-.plan-card--prices{
+.plan-card--pricese{
     padding: 5px 0;
     font-size: 5.2rem;
     font-weight: bold;
     line-height: 5.3rem;
-    color: white;
+    color: var(--just-white);
 }
 
-.plan-card--titles{
+.plan-card--pricese span{
+    font-size: 1.2rem;
+    font-weight: 300;
+    vertical-align: 25px;
+}
+
+.plan-carde--titless{
     padding-top: 30px;
     font-size: 1.4rem;
     font-weight: 500;
     line-height: 1.8rem;
-    color:var(--just-white);
+    color: var(--grey);
 
 }
