@@ -204,7 +204,7 @@ main{
     font-size: 1.6rem;
     font-weight: 500;
     line-height: 1.9rem;
-    color: var(--grey);
+    color: var(--warm-black);
     background: linear-gradient(207.8deg, #201E1C 16.69%, #F7931A 100%);
 
 }
@@ -228,7 +228,7 @@ main{
     font-size: 1.4rem;
     font-weight: normal;
     line-height: 1.7rem;
-    color: #757575;
+    color: black;
 
 }
     
