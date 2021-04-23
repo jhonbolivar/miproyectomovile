@@ -205,7 +205,8 @@ main{
     font-weight: 500;
     line-height: 1.9rem;
     color: var(--grey);
-    background-color: var(--just-white);
+    background: linear-gradient(207.8deg, #201E1C 16.69%, #F7931A 100%);
+
 }
 .currency-table--container .table__top-lef {
     border-radius: 15px 0 0 0;
